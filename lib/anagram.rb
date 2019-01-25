@@ -14,7 +14,7 @@ class Anagram
     if new_word.sort == @word.split("").sort
       new_word
     else
-      new_word.clear
+      new_word
     end
     
   end
